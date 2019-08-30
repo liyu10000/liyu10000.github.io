@@ -69,7 +69,7 @@
         <div class="subheading mb-5">1400 Martin Street · State College, PA 16803 · (814) 852-9160 ·
           <a href="mailto:name@email.com">liyudarren@hotmail.com</a>
         </div>
-        <p class="lead mb-5">I am currently a first year graduate student in College of Information Sciences and Technology, Penn State University. I works with Dr. James Wang and my research interest is the application of computer vision in biomedical imaging.</p>
+        <p class="lead mb-5">I am currently a first year graduate student in College of Information Sciences and Technology, Penn State University. I work with Dr. James Wang and my research interest is the application of computer vision in biomedical imaging.</p>
         <div class="social-icons">
           <a href="#">
             <i class="fab fa-linkedin-in"></i>
@@ -97,8 +97,14 @@
           <div class="resume-content">
             <h3 class="mb-0">NLP Engineer</h3>
             <div class="subheading mb-3">Data Mining & Product Ranking</div>
-            <p>Massive web crawling of relevent information like remarks and reciews of 3C products.</p>
-            <p>Use NLP tools to match brands/products names and perform sentiment analysis.</p>
+            <ul style="padding-left:20px;">
+              <li>
+                <p>Massive web crawling of relevant information like remarks and reviews of 3C products.</p>
+              </li>
+              <li>
+                <p>Use NLP tools to match brands/products names and perform sentiment analysis.</p>
+              </li>
+            </ul>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">June 2019 - July 2019</span>
@@ -109,8 +115,27 @@
           <div class="resume-content">
             <h3 class="mb-0">Senior CV Engineer</h3>
             <div class="subheading mb-3">Biomedical Image Diagnosis</div>
-            <p>Thinprep Cytologic test (TCT) project</p>
-            <p>Tumor Mutation Burden (TMB) project</p>
+            <ul style="padding-left:20px;">
+              <li>
+                <p>Thinprep Cytologic test (TCT) project: developed a complete workflow from biomedical images to disease diagnosis, which involves:</p>
+                <ol>
+                  <li>Object detection of positive cells: modified original YoloV3 model to contain four yolo layers to capture small objects and added one more image classification branch to make use of images with labels but without bounding boxes.</li>
+                  <li>Image classification of detected objects: finetuned Xception and ResNet50 models to further classify detected positive cells.</li>
+                  <li>Disease diagnosis: summarizing detection/classification results to make an overall decision on the whole slide images (WSIs), using SVM or XGBoost.</li>
+                </ol>
+              </li>
+              <div>
+                <img src="img/img1.png" alt="" style="width:49%;float:left">
+                <img src="img/img1.png" alt="" style="width:49%;float:right;">
+              </div>
+              <li>
+                <p>Tumor Mutation Burden (TMB) project: developed a complete workflow from biomedical images to mutation count prediction after immunotherapy, which involves</p>
+                <ol>
+                  <li>Image feature extraction: joinly trained three CNNs to extract features of individual images sliced out of WSIs.</li>
+                  <li>Clustering and classification: developed two levels of feature clustering/PCA to generate final features for WSIs and based on which carried out classification.</li>
+                </ol>
+              </li>
+            </ul>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">March 2018 - May 2019</span>
