@@ -1,367 +1,110 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
   <title>Li Yu</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
-
+  <link href="default.css"
+        rel="stylesheet"
+        type="text/css">
+<!--   <link href="li.ico"
+        rel="shortcut icon"> -->
 </head>
+<body>
+  <div class='limiter'>
+    <div class='mainbox'
+         style='padding-left:10px;padding-top:100px'>
+      <table style='font-size:100%;padding-top:10px;margin:0px;'>
+        <tr valign='middle'>
+          <b><span style='font-size:30px;font-family:Helvetica'>Li Yu</span></b>
+          <td><img id='head'
+               src='files/id.jpg'
+               style='border: 1px solid #000; height:160px;'></td>
+          <td style="padding:10px;">
+            Phone: +1 (814) 852 9160<br>
+            Email: <a href="mailto:name@email.com">liyudarren@hotmail.com</a> <br>
+            <a href='files/CV_full.pdf'>CV</a>
+            <a href="https://github.com/liyu10000">GitHub</a>
+            <a href="https://www.linkedin.com/in/liyu10000/">LinkedIn</a>
+            <p>I am a second year master student in <a href="https://ist.psu.edu/">College of IST at the Pennsylvania State University</a>. I work with <a href="http://wang.ist.psu.edu">Prof. James Z. Wang</a> and <a href="http://personal.psu.edu/jol2/">Prof. Jia Li</a>. My research interest is the application of Computer Vision and Artificial Intelligence in real-world problems. I received my BS degree in Chemistry and Mathematics at Peking University and MS degree in Physical Chemistry at Emory University.</p>
+          </td>
+        </tr>
+      </table>
+    </div>
 
-<body id="page-top">
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Li Yu</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-        </li>
+    <a id="research" name='research'></a>
+    <div class='mainbox contentbox'>
+      <h3>Research</h3>
+      <ul>
+        <li>My current research work includes the application of deep learning algorithms in ship corrosion image analysis, with <a href="https://www.ppg.com/">PPG Industries, Inc.</a>, and explainable image retrieval using positive gradient distance.</li>
       </ul>
     </div>
-  </nav>
 
-  <div class="container-fluid p-0">
+    <a id="publications" name='publications'></a>
+    <div class='mainbox contentbox'>
+      <h3>Publications</h3>
+      <table cellspacing="20">
+        <tr> <!-- ACM MM 2020 HuMA -->
+          <td><img src='files/stargan-egva.png' width="200"></td>
+          <td><b>Li Yu</b>, Dolzodmaa Davaasuren, Shivansh Rao, Vikas Kumar, James Z. Wang<br>
+          <i>StarGAN-EgVA: Emotion Guided Continuous Affect Synthesis</i><br>
+          (To be submitted) <br>
+          [PDF]</td>
+        </tr>
+        <tr><!-- ECCV 2020 BEEU-->
+          <td><img src='files/eccv2020.jpg' width="200"></td>
+          <td>Vikas Kumar, Shivansh Rao, <b>Li Yu</b><br>
+          <i>Noisy Student Training using Body LanguageDataset Improves Facial Expression Recognition</b><br>
+          16th European Conference on Computer Vision <b>(ECCV 2020)</b>, First International Workshop on Bodily Expressed Emotion Understanding<br>
+          [<a href="https://arxiv.org/abs/2008.02655">Paper</a>]
+          </td>
+        </tr>
+        <tr><!-- ICDATA 2020 -->
+          <td><img src='files/icdata2020.jpg' width="200"></td>
+          <td><b>Li Yu</b>, Tongan Cai<br>
+          <i>Ensemble learning for early identification of students at risk from online learning platforms</i><br>
+          Accepted by the 16th International Conference on Data Science <b>(ICDATA 2020)</b><br>
+          (To appear) Advances in Data Science & Information Engineering, Springer<br>
+          [PDF]</td>
+        </tr>
+      </table>
+    </div>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Li
-          <span class="text-primary">Yu</span>
-        </h1>
-        <div class="subheading mb-5">1400 Martin Street · State College, PA 16803 · (814) 852-9160 ·
-          <a href="mailto:name@email.com">liyudarren@hotmail.com</a>
-        </div>
-        <p class="lead mb-5">I am currently a first year graduate student in College of Information Sciences and Technology, Penn State University. I work with Dr. James Wang and my research interest is the application of convex optimization in machine learning.</p>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/liyu10000">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://github.com/liyu10000">
-            <i class="fab fa-github"></i>
-          </a>
-          <!--
-          <a href="#">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          -->
-        </div>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Data Scientist</h3>
-            <div class="subheading mb-3">Pacific Online, China</div>
-            <ul style="padding-left:20px;">
-              <li>
-                <p>Matched remarks and reviews of online products with over 100,000 entries of brand/product names via word segmentation and named entity recognition.</p>
-              </li>
-              <li>
-                <p>Performed sentiment analysis and utilized Reddit ranking algorithms to assign scores at brand/product/attributes levels that achieved 90% precision.</p>
-              </li>
-            </ul>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">June 2019 - July 2019</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Senior Data Scientist</h3>
-            <div class="subheading mb-3">Stimage Tech., China</div>
-            <ul style="padding-left:20px;">
-              <li>
-                <p>Thinprep Cytologic Test (TCT) project: developed a complete workflow from biomedical images to disease diagnosis, which involves:</p>
-                <ol>
-                  <li>Object detection of positive cells: modified original YoloV3 model to contain four yolo layers to capture small objects and added one more image classification branch to make use of images with labels but without bounding boxes.</li>
-                  <li>Image classification of detected objects: finetuned Xception and ResNet50 models to further classify detected positive cells.</li>
-                  <li>Disease diagnosis: summarizing detection/classification results to make an overall decision on the whole slide images (WSIs), using SVM or XGBoost.</li>
-                </ol>
-              </li>
-              <div>
-                <img src="img/img1.png" alt="TCT" title="TCT Workflow" style="width:49%">
-                <img src="img/img2.png" alt="TMB" title="TMB Workflow" style="width:49%">
-              </div>
-              <li>
-                <p>Tumor Mutation Burden (TMB) project: developed a complete workflow from biomedical images to mutation count prediction after immunotherapy, which involves</p>
-                <ol>
-                  <li>Image feature extraction: joinly trained three CNNs to extract features of individual images sliced out of WSIs.</li>
-                  <li>Clustering and classification: developed two levels of feature clustering/PCA to generate final features for WSIs and based on which carried out classification.</li>
-                </ol>
-              </li>
-            </ul>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">March 2018 - May 2019</span>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Penn State University</h3>
-            <div class="subheading mb-3">Master of Science</div>
-            <div>Data Science</div>
-            <p>GPA: --</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2019 - Present</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Emory University</h3>
-            <div class="subheading mb-3">Master of Science</div>
-            <div>Physical Chemistry</div>
-            <p>GPA: 3.3</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2014 - August 2017</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Peking University</h3>
-            <div class="subheading mb-3">Bachaler of Science</div>
-            <div>Chemistry (double major: Mathematics)</div>
-            <p>GPA: 3.5 (3.5)</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2009 - June 2014</span>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
-
-<!--
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-python"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-java"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-        </ul>
--->
-
-        <div class="subheading mb-2">Languages</div>
-        <ul class="fa-ul mb-2">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Python, C, C++, Java, R, MATLAB, HTML, JavaScript, XML</li>
-        </ul>
-
-        <div class="subheading mb-2">Software Tools</div>
-        <ul class="fa-ul mb-2">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Microsoft Office, Adobe Photoshop, Visual Studio, Git, Docker, Elasticsearch</li>
-        </ul>
-
-        <div class="subheading mb-2">Operating Systems</div>
-        <ul class="fa-ul mb-2">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Windows, Linux variants, OSX</li>
-        </ul>
-
-        <div class="subheading mb-2">Machine Learning Tools and Platforms</div>
-        <ul class="fa-ul mb-2">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Sklearn, Tensorflow, Keras, Pytorch, Caffe</li>
-        </ul>
-
-<!--
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum</li>
-        </ul>
--->
-
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-      <div class="w-100">
-<!-- 
-        <h2 class="mb-5">Interests</h2>
-        <p class="mb-0">Data and Quantitative Analysis</p>
-        <p class="mb-0">Data Mining and Visualization tools</p>
-        <p class="mb-0">Machine Learning</p>
-        <p class="mb-0">Optical Character Recognition</p>
-        <p class="mb-0">Deep Learning: Object Detection, Classification, Segmentation</p>
-         -->
-
-        <h2 class="mb-5">Interests</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Data and Quantitative Analysis</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Data Mining and Visualization tools</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Machine Learning</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Optical Character Recognition</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Deep Learning: Object Detection, Classification, Segmentation</li>
-        </ul>
-
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Course Certifications</h2>
-
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Data Mining</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Machine Learning</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Convolutional Neural Networks for Visual Recognition</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Natural Language Processing with Deep Learning</li>          
-<!-- 
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            2<sup>nd</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - James Buchanan High School - Hackathon 2006</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            3<sup>rd</sup>
-            Place - James Buchanan High School - Hackathon 2005</li>
-             -->
-        </ul>
-
-      </div>
-    </section>
-
+    <a id="projects" name='projects'></a>
+    <div class='mainbox contentbox'>
+      <h3>Projects</h3>
+      <table cellspacing="20">
+        <tr>
+          <td><img src='files/white.png' width="200"></td>
+          <td><b>Li Yu</b>, Kareem Metwaly, Stephen Aro, James Z. Wang, Vishal Monga<br>
+          <i>Extent of Corrosion Image Analysis</i><br>
+          In collaboration with PPG Industries, Inc.</b>
+          </td>
+        </tr>
+        <tr>
+          <td><img src='files/white.png' width="200"></td>
+          <td><b>Li Yu</b>, Jia Li<br>
+          <i>Explainable and Robust Image Retrieval Based on Positive Gradient Distance</i>
+          </td>
+        </tr>
+        <tr>
+          <td><img src='files/3dlayout.png' width="200"></td>
+          <td>Vikas Kumar, Shivansh Rao, <b>Li Yu</b><br>
+          <i>3D Room Layout Estimation<br>
+          </td>
+        </tr>
+        <tr>
+          <td><img src='files/tct.png' width="200"></td>
+          <td><b>Li Yu</b>, Xin Xiong, Ying Wang, Pengcheng Ma<br>
+          <i>Artificial Intelligence Assisted Thinprep Cytologic Test (TCT).<br>
+          </td>
+        </tr>
+        <tr>
+          <td><img src='files/tmb.png' width="200"></td>
+          <td><b>Li Yu</b>, Xin Xiong, Ying Wang, Pengcheng Ma<br>
+          <i>Artificial Intelligence Assisted Tumor Mutation Burden (TMB) prediction.<br>
+          </td>
+        </tr>
+    </div>
   </div>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
-
 </body>
-
 </html>
